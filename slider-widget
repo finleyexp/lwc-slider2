@@ -1,0 +1,85 @@
+<!---------------------------------------------
+    Blogger Slideshow Widget by
+    http://imagesliderforblogger.blogspot.com/
+    org. by dimpost.com 
+----------------------------------------------->
+<!--  Camera_Slideshow Styles  -->
+<link rel="stylesheet" id="camera-css" href="http://project.dimpost.com/camera-slideshow/css/camera.css" type="text/css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet" />
+<!-- Camera Slideshow Scripts -->
+<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script type='text/javascript' src='http://project.dimpost.com/camera-slideshow/scripts/jquery.mobile.customized.min.js'></script>
+<script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script type='text/javascript' src='http://project.dimpost.com/camera-slideshow/scripts/camera.min.js'></script>
+<script type='text/javascript'>
+jQuery(function() {
+    jQuery('#camera_wrap_1').camera({
+        time: 2500, // milliseconds between the end of the sliding effect and the start of the nex one
+        transPeriod: 1000, // length of the sliding effect in milliseconds
+        thumbnails: false, // thumnails & tooltip is controlled by it
+        pagination: true, // only when "pagination" is set to "false" thumbnails will be visible
+        fx: 'curtainTopLeft, curtainTopRight, curtainBottomLeft, curtainBottomRight, curtainSliceLeft, curtainSliceRight, blindCurtainTopLeft, blindCurtainTopRight, blindCurtainBottomLeft, blindCurtainBottomRight, blindCurtainSliceBottom, blindCurtainSliceTop, stampede, mosaic, mosaicReverse, mosaicRandom, mosaicSpiral, mosaicSpiralReverse, topLeftBottomRight, bottomRightTopLeft, bottomLeftTopRight, bottomLeftTopRight, scrollLeft, scrollRight, scrollHorz, scrollBottom, scrollTop', // transition effects
+        hover: true, // Pause on hover
+        height: '25%', // slideshow height (50% is default)
+    });
+});
+</script>
+<style type="text/css">
+
+.fluid_container {
+    margin-left: -10%;
+    /* align centered */
+    width: 120%;
+    max-width: 120%;
+}
+
+
+/* Blogger CSS Conflict Fix */
+
+.camera_pag_ul {
+    border: none !important;
+    background: none !important;
+}
+
+.camera_pag_ul li {
+    float: inherit !important;
+    padding: inherit !important;
+}
+
+.camera_pag_ul {
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+</style>
+<div class="fluid_container">
+    <!-- camera_slideshow camera_wrap-->
+    <div class="camera_wrap" id="camera_wrap_1">
+        <div data-link="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40684708_904703250906_5016508719257616384_n.jpg?_nc_cat=0&oh=bd1152a67f1d721bcba0bfdb4be5e1d9&oe=5C27D4F6" data-thumb="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40684708_904703250906_5016508719257616384_n.jpg?_nc_cat=0&oh=bd1152a67f1d721bcba0bfdb4be5e1d9&oe=5C27D4F6" data-src="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40684708_904703250906_5016508719257616384_n.jpg?_nc_cat=0&oh=bd1152a67f1d721bcba0bfdb4be5e1d9&oe=5C27D4F6">
+            <div class="camera_caption fadeFromBottom" style
+="font-family:'Kalam'; font-size: 2em; text-align:center;">
+                Be passionate about your path
+            </div>
+        </div>
+        <div data-link="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40758235_904703171066_44110808778539008_n.jpg?_nc_cat=0&oh=8240ca5eb5282666db4ee91d6cbff6bb&oe=5C29BFB0" data-thumb="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40758235_904703171066_44110808778539008_n.jpg?_nc_cat=0&oh=8240ca5eb5282666db4ee91d6cbff6bb&oe=5C29BFB0" data-src="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40758235_904703171066_44110808778539008_n.jpg?_nc_cat=0&oh=8240ca5eb5282666db4ee91d6cbff6bb&oe=5C29BFB0">
+            <div class="camera_caption fadeFromBottom" style
+="font-family:'Kalam'; font-size: 2em; text-align:center;">
+                Find it. Live it. Love it.
+            </div>
+        </div>
+        <div data-link="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40657874_904703121166_2034752885467643904_n.jpg?_nc_cat=0&oh=433ff6a7b0b75772b8d2dfb088abd96a&oe=5BF4CBB9" data-thumb="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40657874_904703121166_2034752885467643904_n.jpg?_nc_cat=0&oh=433ff6a7b0b75772b8d2dfb088abd96a&oe=5BF4CBB9" data-src="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40657874_904703121166_2034752885467643904_n.jpg?_nc_cat=0&oh=433ff6a7b0b75772b8d2dfb088abd96a&oe=5BF4CBB9">
+            <div class="camera_caption fadeFromBottom" style
+="font-family:'Kalam'; font-size: 2em; text-align:center;">
+                Power up your life
+            </div>
+        </div>
+        <div data-link="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40676357_904703196016_5244535675532869632_n.jpg?_nc_cat=0&oh=b46f1e2b1451f997964272d43cfdd101&oe=5C31A743" data-thumb="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40676357_904703196016_5244535675532869632_n.jpg?_nc_cat=0&oh=b46f1e2b1451f997964272d43cfdd101&oe=5C31A743" data-src="https://scontent.fmad4-1.fna.fbcdn.net/v/t1.0-9/40676357_904703196016_5244535675532869632_n.jpg?_nc_cat=0&oh=b46f1e2b1451f997964272d43cfdd101&oe=5C31A743">
+            <div class="camera_caption fadeFromBottom" style
+="font-family:'Kalam'; font-size: 2em; text-align:center;">
+                No apologies. No regrets.
+            </div>
+        </div>
+    </div>
+    <!-- #camera_wrap_1 -->
+</div>
+<!-- .fluid_container -->
